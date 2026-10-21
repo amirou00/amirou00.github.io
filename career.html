@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Career Development | Student ePortfolio · ENSEEIHT</title>
+    <meta
+      name="description"
+      content="Career project, bilingual CVs, role models and internships."
+    />
+    <meta property="og:title" content="Career Development | Student ePortfolio" />
+    <meta
+      property="og:description"
+      content="Career project, bilingual CVs, role models and internships."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!--$-->
+    <div class="min-h-screen flex flex-col bg-background text-foreground">
+      <header class="site-header">
+        <div class="header-top page-width">
+          <a class="brand" href="index.html"
+            ><span class="brand-icon"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="21"
+                height="21"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-code-xml"
+                aria-hidden="true"
+              >
+                <path d="m18 16 4-4-4-4"></path>
+                <path d="m6 8-4 4 4 4"></path>
+                <path d="m14.5 4-5 16"></path></svg></span
+            ><span>Amirhossein Forghani<span class="brand-subtitle">ePortfolio</span></span></a
+          >
+          <div class="school-label">
+            Computer science &amp; engineering<span>ENSEEIHT · Toulouse INP N7</span>
+          </div>
+          <button
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 w-9 mobile-toggle"
+            aria-label="Open navigation"
+            aria-expanded="false"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-menu"
+              aria-hidden="true"
+            >
+              <path d="M4 5h16"></path>
+              <path d="M4 12h16"></path>
+              <path d="M4 19h16"></path>
+            </svg>
+          </button>
+        </div>
+        <nav aria-label="Main navigation" class="main-nav page-width">
+          <a class="nav-link" href="index.html"><span>01</span>Welcome</a
+          ><a class="nav-link" href="engineering.html"><span>02</span>Engineering course</a
+          ><a class="nav-link" href="mobility.html"><span>03</span>International Mobility</a
+          ><a class="nav-link" href="sustainability.html"
+            ><span>04</span>Sustainability &amp; Civic Engagement</a
+          ><a class="nav-link" href="sport.html"><span>05</span>Sport &amp; other activities</a
+          ><a
+            class="nav-link is-active active"
+            href="career.html"
+            data-status="active"
+            aria-current="page"
+            ><span>06</span>Career Development</a
+          >
+        </nav>
+      </header>
+      <main class="page-width flex-1">
+        <div class="page-heading">
+          <div class="flex items-center gap-3">
+            <span class="eyebrow text-primary">06 / Looking ahead</span
+            ><span class="heading-line"></span>
+          </div>
+          <h1>Career Development</h1>
+        </div>
+        <nav class="sub-nav" aria-label="Section navigation">
+          <a class="is-active" href="career.html" data-status="active" aria-current="page"
+            >Overview<svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-arrow-up-right"
+              aria-hidden="true"
+            >
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path></svg></a
+          ><a href="career-internships.html"
+            >Internships<svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-arrow-up-right"
+              aria-hidden="true"
+            >
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path></svg></a
+          ><a href="career-project.html"
+            >Career Project<svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-arrow-up-right"
+              aria-hidden="true"
+            >
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path></svg
+          ></a>
+        </nav>
+        <div class="page-content">
+          <section class="content-section">
+            <div class="section-heading">
+              <span class="eyebrow text-primary">00</span>
+              <h2 class="section-title">My career direction</h2>
+            </div>
+            <p class="text-muted-foreground">
+              I’m exploring several directions in computer science and telecommunications: network
+              architectures, cybersecurity and embedded systems. I also looked into AI development
+              through an interview with an AI developer. My short-term goal is a 6-week internship
+              in June 2027, to put my knowledge and skills into practice. To refine my direction, I
+              interview professionals, N7 alumni among them, about their daily work (see my role
+              models below).
+            </p>
+          </section>
+          <h2 class="career-title">Career Project</h2>
+          <section class="content-section">
+            <div class="section-heading">
+              <span class="eyebrow text-primary">01</span>
+              <h2 class="section-title">CV &amp; professional profiles</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-x-8 gap-y-4">
+              <div class="file-slot">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-file-text text-primary"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+                  ></path>
+                  <path d="M14 2v5a1 1 0 0 0 1 1h5"></path>
+                  <path d="M10 9H8"></path>
+                  <path d="M16 13H8"></path>
+                  <path d="M16 17H8"></path>
+                </svg>
+                <div class="flex-1 min-w-0">
+                  <h3 class="font-medium">CV in English</h3>
+                  <p class="mt-1 text-sm text-muted-foreground">[Your PDF here]</p>
+                </div>
+                <div class="flex gap-1">
+                  <button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 w-9"
+                    disabled=""
+                    aria-label="View CV in English"
+                    title="No file added yet"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-file-text"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+                      ></path>
+                      <path d="M14 2v5a1 1 0 0 0 1 1h5"></path>
+                      <path d="M10 9H8"></path>
+                      <path d="M16 13H8"></path>
+                      <path d="M16 17H8"></path>
+                    </svg></button
+                  ><button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 w-9"
+                    disabled=""
+                    aria-label="Download CV in English"
+                    title="No file added yet"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-arrow-down-to-line"
+                      aria-hidden="true"
+                    >
+                      <path d="M12 17V3"></path>
+                      <path d="m6 11 6 6 6-6"></path>
+                      <path d="M19 21H5"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="file-slot">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-file-text text-primary"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+                  ></path>
+                  <path d="M14 2v5a1 1 0 0 0 1 1h5"></path>
+                  <path d="M10 9H8"></path>
+                  <path d="M16 13H8"></path>
+                  <path d="M16 17H8"></path>
+                </svg>
+                <div class="flex-1 min-w-0">
+                  <h3 class="font-medium">CV in French</h3>
+                  <p class="mt-1 text-sm text-muted-foreground">cv-fr.pdf · French</p>
+                </div>
+                <div class="flex gap-1">
+                  <a
+                    href="cv-fr.pdf"
+                    target="_blank"
+                    rel="noopener"
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 w-9"
+                    aria-label="View CV in French"
+                    title="View CV in French"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-file-text"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+                      ></path>
+                      <path d="M14 2v5a1 1 0 0 0 1 1h5"></path>
+                      <path d="M10 9H8"></path>
+                      <path d="M16 13H8"></path>
+                      <path d="M16 17H8"></path></svg></a
+                  ><a
+                    href="cv-fr.pdf"
+                    download
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 w-9"
+                    aria-label="Download CV in French"
+                    title="Download CV in French"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-arrow-down-to-line"
+                      aria-hidden="true"
+                    >
+                      <path d="M12 17V3"></path>
+                      <path d="m6 11 6 6 6-6"></path>
+                      <path d="M19 21H5"></path></svg
+                  ></a>
+                </div>
+              </div>
+              <div class="link-slot">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19"
+                  height="19"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-linkedin text-primary shrink-0"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  ></path>
+                  <rect width="4" height="12" x="2" y="9"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                <div class="flex-1">
+                  <h3 class="font-medium">
+                    LinkedIn in English<!-- -->
+                    <span class="optional">Optional</span>
+                  </h3>
+                  <p class="text-sm text-muted-foreground mt-1">[Your link here]</p>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-up-right text-muted-foreground"
+                  aria-hidden="true"
+                >
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path>
+                </svg>
+              </div>
+              <div class="link-slot">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19"
+                  height="19"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-linkedin text-primary shrink-0"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  ></path>
+                  <rect width="4" height="12" x="2" y="9"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                <div class="flex-1">
+                  <h3 class="font-medium">
+                    LinkedIn in French<!-- -->
+                    <span class="optional">Optional</span>
+                  </h3>
+                  <p class="text-sm text-muted-foreground mt-1">[Your link here]</p>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-up-right text-muted-foreground"
+                  aria-hidden="true"
+                >
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path>
+                </svg>
+              </div>
+            </div>
+          </section>
+          <section class="content-section">
+            <div class="section-heading">
+              <span class="eyebrow text-primary">02</span>
+              <h2 class="section-title">Elevator pitch</h2>
+            </div>
+            <div class="video-slot">
+              <span class="video-play"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-play"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"
+                  ></path></svg
+              ></span>
+              <p>[Your elevator pitch video here]</p>
+              <span class="text-sm text-muted-foreground">2–3 minutes · In English</span>
+            </div>
+          </section>
+          <section class="content-section">
+            <div class="section-heading">
+              <span class="eyebrow text-primary">03</span>
+              <h2 class="section-title">Role models</h2>
+            </div>
+            <div class="grid gap-5 lg:grid-cols-3">
+              <article class="portfolio-card" id="role-model-1">
+                <div class="flex justify-between items-center mb-6">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-user-round text-primary"
+                    aria-hidden="true"
+                  >
+                    <circle cx="12" cy="8" r="5"></circle>
+                    <path d="M20 21a8 8 0 0 0-16 0"></path></svg
+                  ><span class="eyebrow text-muted-foreground">0<!-- -->1</span>
+                </div>
+                <h3 class="text-lg font-medium mb-5">
+                  Role model
+                  <!-- -->1
+                </h3>
+                <dl>
+                  <div class="field">
+                    <dt>Name</dt>
+                    <dd>Bruno Ramael</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Job</dt>
+                    <dd>Full-stack and AI developer</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Company</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Short analysis</dt>
+                    <dd>N7 alumnus. Interview about the profession of AI development.</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Key takeaways</dt>
+                    <dd>
+                      A clear, concrete vision of the job and its realities; introductions to other
+                      experts in the field; tools to widen my professional network. The N7 alumni
+                      network makes these meetings possible.
+                    </dd>
+                  </div>
+                </dl>
+              </article>
+              <article class="portfolio-card" id="role-model-2">
+                <div class="flex justify-between items-center mb-6">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-user-round text-primary"
+                    aria-hidden="true"
+                  >
+                    <circle cx="12" cy="8" r="5"></circle>
+                    <path d="M20 21a8 8 0 0 0-16 0"></path></svg
+                  ><span class="eyebrow text-muted-foreground">0<!-- -->2</span>
+                </div>
+                <h3 class="text-lg font-medium mb-5">
+                  Role model
+                  <!-- -->2
+                </h3>
+                <dl>
+                  <div class="field">
+                    <dt>Name</dt>
+                    <dd>Pascal Traverse</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Job</dt>
+                    <dd>Engineer (retired)</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Company</dt>
+                    <dd>Airbus (retired); N7 alumnus</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Short analysis</dt>
+                    <dd>
+                      We discussed the daily life of an engineer in embedded systems, the concrete
+                      tasks, and the different facets of the job, which is broader than I imagined.
+                    </dd>
+                  </div>
+                  <div class="field">
+                    <dt>Key takeaways</dt>
+                    <dd>
+                      Soft skills matter enormously: I expected a purely technical conversation, but
+                      communication and teamwork count a lot.
+                    </dd>
+                  </div>
+                </dl>
+              </article>
+              <article class="portfolio-card" id="role-model-3">
+                <div class="flex justify-between items-center mb-6">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-user-round text-primary"
+                    aria-hidden="true"
+                  >
+                    <circle cx="12" cy="8" r="5"></circle>
+                    <path d="M20 21a8 8 0 0 0-16 0"></path></svg
+                  ><span class="eyebrow text-muted-foreground">0<!-- -->3</span>
+                </div>
+                <h3 class="text-lg font-medium mb-5">
+                  Role model
+                  <!-- -->3
+                </h3>
+                <dl>
+                  <div class="field">
+                    <dt>Name</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Job</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Company</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Short analysis</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Key takeaways</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                </dl>
+              </article>
+            </div>
+          </section>
+          <section class="content-section">
+            <div class="section-heading">
+              <span class="eyebrow text-primary">04</span>
+              <h2 class="section-title">International mobility projects</h2>
+            </div>
+            <div class="grid gap-5 lg:grid-cols-3">
+              <article class="portfolio-card">
+                <div class="flex justify-between items-center mb-6">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-earth text-primary"
+                    aria-hidden="true"
+                  >
+                    <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"></path>
+                    <path
+                      d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"
+                    ></path>
+                    <path d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"></path>
+                    <circle cx="12" cy="12" r="10"></circle></svg
+                  ><span class="eyebrow text-muted-foreground">0<!-- -->1</span>
+                </div>
+                <h3 class="text-lg font-medium mb-5">
+                  Mobility project
+                  <!-- -->1
+                </h3>
+                <dl>
+                  <div class="field">
+                    <dt>Country</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Organisation</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Why it fits</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                </dl>
+                <a href="#role-model-1" class="role-link"
+                  >Linked to role model
+                  <!-- -->1<svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-down-right"
+                    aria-hidden="true"
+                  >
+                    <path d="m7 7 10 10"></path>
+                    <path d="M17 7v10H7"></path></svg
+                ></a>
+              </article>
+              <article class="portfolio-card">
+                <div class="flex justify-between items-center mb-6">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-earth text-primary"
+                    aria-hidden="true"
+                  >
+                    <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"></path>
+                    <path
+                      d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"
+                    ></path>
+                    <path d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"></path>
+                    <circle cx="12" cy="12" r="10"></circle></svg
+                  ><span class="eyebrow text-muted-foreground">0<!-- -->2</span>
+                </div>
+                <h3 class="text-lg font-medium mb-5">
+                  Mobility project
+                  <!-- -->2
+                </h3>
+                <dl>
+                  <div class="field">
+                    <dt>Country</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Organisation</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Why it fits</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                </dl>
+                <a href="#role-model-2" class="role-link"
+                  >Linked to role model
+                  <!-- -->2<svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-down-right"
+                    aria-hidden="true"
+                  >
+                    <path d="m7 7 10 10"></path>
+                    <path d="M17 7v10H7"></path></svg
+                ></a>
+              </article>
+              <article class="portfolio-card">
+                <div class="flex justify-between items-center mb-6">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-earth text-primary"
+                    aria-hidden="true"
+                  >
+                    <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"></path>
+                    <path
+                      d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"
+                    ></path>
+                    <path d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"></path>
+                    <circle cx="12" cy="12" r="10"></circle></svg
+                  ><span class="eyebrow text-muted-foreground">0<!-- -->3</span>
+                </div>
+                <h3 class="text-lg font-medium mb-5">
+                  Mobility project
+                  <!-- -->3
+                </h3>
+                <dl>
+                  <div class="field">
+                    <dt>Country</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Organisation</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                  <div class="field">
+                    <dt>Why it fits</dt>
+                    <dd>[Your text here]</dd>
+                  </div>
+                </dl>
+                <a href="#role-model-3" class="role-link"
+                  >Linked to role model
+                  <!-- -->3<svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-down-right"
+                    aria-hidden="true"
+                  >
+                    <path d="m7 7 10 10"></path>
+                    <path d="M17 7v10H7"></path></svg
+                ></a>
+              </article>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="site-footer">
+        <div class="page-width flex flex-wrap items-center justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-code-xml text-primary"
+              aria-hidden="true"
+            >
+              <path d="m18 16 4-4-4-4"></path>
+              <path d="m6 8-4 4 4 4"></path>
+              <path d="m14.5 4-5 16"></path></svg
+            ><span
+              >Amirhossein Forghani <span class="text-muted-foreground">/ ePortfolio</span></span
+            >
+          </div>
+          <span class="text-muted-foreground">ENSEEIHT · Toulouse INP N7</span
+          ><span class="privacy-note"><span></span> No analytics or tracking cookies</span>
+        </div>
+      </footer>
+    </div>
+    <!--/$-->
+    <script>
+      (function(){
+        var btn = document.querySelector('.mobile-toggle');
+        var nav = document.querySelector('.main-nav');
+        if (btn && nav) btn.addEventListener('click', function(){
+          var open = nav.classList.toggle('is-open');
+          btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          btn.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+        });
+      })();
+    </script>
+  </body>
+</html>
