@@ -8,7 +8,6 @@ Files
 index.html                          Welcome page
 engineering.html                    Engineering course (overview)
 engineering-projects.html           Engineering course > Projects
-engineering-productions.html        Engineering course > Productions
 mobility.html                       International Mobility (overview)
 mobility-language-courses.html      International Mobility > Language courses
 mobility-abroad.html                International Mobility > Mobility abroad
@@ -17,6 +16,7 @@ sport.html                          Sport & other activities
 career.html                         Career Development (overview)
 career-internships.html             Career Development > Internships
 career-project.html                 Career Development > Career Project
+cv-en.pdf / cv-fr.pdf               Your CVs (English / French), linked from the site
 styles.css                          All styling (linked from every page)
 favicon.ico                         Browser tab icon
 
