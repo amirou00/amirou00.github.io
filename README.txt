@@ -8,6 +8,7 @@ Files
 index.html                          Welcome page
 engineering.html                    Engineering course (overview)
 engineering-projects.html           Engineering course > Projects
+engineering-tools.html              Engineering course > Tools & Software
 mobility.html                       International Mobility (overview)
 mobility-language-courses.html      International Mobility > Language courses
 mobility-abroad.html                International Mobility > Mobility abroad
